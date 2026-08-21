@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JohnMK | AIEXP</title>
+    <meta name="description"
+        content="Personal Portfolio of John MK, a Computer Science Undergraduate. Explore my projects, experience, and skills.">
+
+    <!-- Open Graph SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="JohnMK | AI_EXP">
+    <meta property="og:description" content="Explore my projects, work experience, and technical skills.">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/JohnMK/DevHQ-Personal-Portfolio-Website/main/portfolio_assests/">
+
+    <link rel="icon" href="portfolio_assests/Uscreentv.png" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+    <script type="module" src="./speed-insights.js"></script>
+</head>
+
+<div id="certModal" class="cert-modal">
+    <div class="cert-modal-content">
+        <span class="close-cert-modal">&times;</span>
+        <iframe id="certFrame" src="" frameborder="0"></iframe>
+    </div>
+</div>
+
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <div class="background-container">
+        <canvas id="bg-canvas"></canvas>
+
+    </div>
+
+    <!-- Hero Section -->
+    <main class="hero" id="home">
+        <div class="content-wrapper">
+            <br>
+            <br>
+   
+            <!--  Add photo -->
+            <div class="profile-header">
+                <div class="profile-img-main">
+                    <img src="portfolio_assests/Professional_Picture.jpg" alt="John MK">
+                </div>
+            </div>
+            <!-- Add photo -->
+
+            <h2 class="sub-title">Hi! You Landed on the Portfolio Website of The</h2>
+
+            <h2 class="main-title">
+                <span class="purple-text" id="typing-text"></span>
+            </h2>
+            <h3 class="year">John MK | Full-stack AI Developer</h3>
+            <br>
+            <div class="hero-buttons">
+                <a href="#contact" target="_blank" class="btn-resume">Let's Connect</a>
+                <a href="javascript:void(0)" id="openResumeBtn" class="btn-resume">View Resume</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bio Section -->
+    <section class="about-section" id="about">
+        <div class="glass-card scroll-reveal">
+            <h2>About Me - <span class="purple-text">Behind The Code!</span></h2>
+            <p>
+                I enjoy helping businesses transform ideas into fast, scalable, and user-friendly applications. My 
+                focus is on building reliable software that solves real problems and delivers measurable value. I work
+                across modern web technologies, AI-powered solutions, and backend systems, always emphasizing clean 
+                code, performance, and maintainability.
+
+                <br><br>I believe successful projects are built on clear communication, transparency, and a 
+                commitment to quality. Whether working independently or as part of a team, I take ownership 
+                of every project and strive to deliver solutions that exceed expectations.
+            </p>
+        </div>
+    </section>
+    <br>
+
+    <!-- OperatingModel Section -->
+    <section class="OperatingModel-section" id="OperatingModel">
+        <div>
+            <h4 style=" font-size: 2rem; text-align: center;"> Operating Model </h4>
+        </div>
+        <br>
+        <br>
+        <h2 class="section-title">From ambiguity to an - <span class="purple-text">automated system.</span></h2>
+        <br>
+
+        <div class="timeline">
+            <div class="timeline-line">
+                <div class="timeline-progress"></div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-number">Discover</div>
+                    <p style="text-align: left; padding: 7px 0;">
+                        <h2>Define the durable shape: data flow, ownership, interfaces, and failure modes.</h2>
+                    </p>
+                <div class="timeline-dot"></div>
+            </div>
+            
+            <div class="timeline-item right">
+                <div class="timeline-number">Architect</div>
+                    <p style="text-align: left; padding: 7px 0;">
+                        <h2>Define the durable shape: data flow, ownership, interfaces, and failure modes.</h2>
+                    </p>
+                <div class="timeline-dot"></div>
+            </div>
+                        
+            <div class="timeline-item left">
+                <div class="timeline-number">Build</div>
+                    <p style="text-align: left; padding: 7px 0;">
+                        <h2>Ship focused product surfaces, APIs, and services that are easy to operate.</h2>
+                    </p>
+                <div class="timeline-dot"></div>
+            </div>
+            
+            <div class="timeline-item right">
+                <div class="timeline-number">Automate</div>
+                    <p style="text-align: left; padding: 7px 0;">
+                        <h2>Replace repeated decisions and handoffs with reliable workflows and AI support.</h2>
+                    </p>
+                <div class="timeline-dot"></div>
+            </div>
+            
+            <div class="timeline-item left">
+                <div class="timeline-number">Scale</div>
+                    <p style="text-align: left; padding: 7px 0;">
+                        <h2>Harden performance, observability, permissions, and product expansion paths.</h2>
+                    </p>
+                <div class="timeline-dot"></div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <br>
+
+    <!-- Experience Section -->
+    <section class="experience-section" id="experience">
+        <h2 class="section-title"> Systems shipped, workflows automated, and production complexity reduced. </h2>
+        <br>
+        <div class="experience-grid">
+
+            <div class="experience-card">
+                <div style="text-align:center; text-justify: auto; position:relative; padding-top: 7%;">
+                <h2 style="font-size: 4rem;"> 6+ </h2>
+                <p style="font-size: 2rem;"> Years of Experience </p>
+                </div>
+                <div class="project-links-wrapper inline-block" >
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-regular fa-eye"></i> View Live</a>
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div style="text-align:center; text-justify: auto; position:relative; padding-top: 7%;">
+                <h2 style="font-size: 4rem;"> 20+ </h2>
+                <p style="font-size: 2rem;"> Production Systems Built </p>
+                </div>
+                <div class="project-links-wrapper">
+                    <a href="https://iiit-kernel.vercel.app" target="_blank" class="project-btn primary-btn"><i
+                            class="fa-regular fa-eye"></i> View Live</a>
+                    <a href="https://github.com/johnmk916?tab=overview&from=2020-12-01&to=2020-12-31" class="project-btn primary-btn"><i
+                            class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div style="text-align:center; text-justify: auto; position:relative; padding-top: 7%;">
+                <h2 style="font-size: 4rem;"> 40+ </h2>
+                <p style="font-size: 2rem;"> Automations Implemented </p>
+                </div>
+                <div class="project-links-wrapper">
+                    <a href="https://JohnMK.vercel.app/" target="_blank" class="project-btn primary-btn"><i
+                            class="fa-regular fa-eye"></i> View Live</a>
+                    <a href="https://github.com/johnmk916?tab=overview&from=2020-12-01&to=2020-12-31" target="_blank"
+                        class="project-btn primary-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div style="text-align:center; text-justify: auto; position:relative; padding-top: 7%;">
+                <h2 style="font-size: 4rem;"> 10+ </h2>
+                <p style="font-size: 2rem;"> AI / Agent Integrations </p>
+                </div>
+                <div class="project-links-wrapper">
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-regular fa-eye"></i> View Live</a>
+                    <a href="https://github.com/johnmk916?tab=overview&from=2020-12-01&to=2020-12-31" target="_blank"
+                        class="project-btn primary-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br>
+    
+    <!-- Skill Section -->
+    <section class="skills-section" id="skills">
+        <h2 class="section-title">Technical Skills - <span class="purple-text">Core Expertise!</span></h2>
+        <div class="skill-grid">
+
+            <div class="skill-card">
+                <i class="devicon-cplusplus-plain colored"></i>
+                <span>C++</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-java-plain colored"></i>
+                <span>Java</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-python" style="color: #3776AB;"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-javascript-plain colored"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-typescript-plain colored"></i>
+                <span>TypeScript</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-php-plain colored"></i>
+                <span>PHP</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-csharp-plain colored"></i>
+                <span>C#</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-html5-plain colored"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-sass-original colored"></i>
+                <span>SASS</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-tailwindcss-original colored"></i>
+                <span>Tailwind CSS</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-react-original colored"></i>
+                <span>React.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-nextjs-plain"></i>
+                <span>Next.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-threejs-original"></i>
+                <span>Three.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-nodejs-plain-wordmark colored"></i>
+                <span>Node.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-express-original"></i>
+                <span>Express.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-redux-original colored"></i>
+                <span>Redux</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-postman-plain colored"></i>
+                <span>Postman</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-django-plain colored"></i>
+                <span>Django</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-tensorflow-original"></i>
+                <span>tensorflow</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-pytorch-original"></i>
+                <span>pytorch</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-mongodb-plain colored"></i>
+                <span>MongoDB</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-mysql-plain colored"></i>
+                <span>MySQL</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-postgresql-plain colored"></i>
+                <span>PostgreSQL</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-git-plain colored"></i>
+                <span>Git</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-github-original"></i>
+                <span>GitHub</span>
+            </div>
+
+
+
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section class="products-section" id="products">
+        <h3 class="section-title">Systems built for scale across AI, automation, and modern SaaS infrastructure.</h3>
+
+        <div class="cert-grid">
+            <div class="cert-item">
+                <div class="cert-img-wrapper">
+                    <img src="portfolio_assests/LEADGEN.jpeg" alt="AI Lead Generation & Follow-Up Automation">
+                </div>
+                <div class="cert-info">
+                    <h3>AI Lead Generation & Follow-Up Automation Workflow</h3>
+                    <p>
+                        This workflow is an automated AI-powered lead generation and follow-up system designed to capture leads, analyze conversations, manage appointments, and maintain customer engagement through multiple sequences.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper">
+                    <img src="portfolio_assests/Moltbot Landing Page.png"
+                        alt="Deloitte: Data Analytics Simulation">
+                </div>
+                <div class="cert-info">
+                    <h3>Moltbot: Open-Source Personal AI Employee</h3>
+                    <p>
+                        This diagram explains Moltbot, an open-source personal AI assistant designed to act as a private, autonomous AI employee that can perform real tasks on behalf of users.
+                        Unlike traditional chatbots that only answer questions, Moltbot focuses on taking actions, controlling workflows, accessing systems, and interacting with applications while keeping user data under personal control.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper">
+                    <img src="portfolio_assests/MCP_server_with_AgentPass_AI.jpeg" alt="Anthropic AI Fluency Builder">
+                </div>
+                <div class="cert-info">
+                    <h3>AI Agent Infrastructure & MCP Integration Platform</h3>
+                    <p>
+                        This architecture represents an AI Agent orchestration platform designed to connect multiple AI models with business systems, APIs, databases, and external tools through a secure and controlled integration layer.
+                        The system enables AI agents to understand user requests, access authorized tools, execute actions, and monitor performance through a centralized AI gateway.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper">
+                    <img src="portfolio_assests/Rossum_ai.png" alt="Anthropic AI Fluency F&F">
+                    <div class="cert-overlay">
+                        <a href="https://rossum.ai/" target="_blank" class="cert-overlay-link">
+                            <span>View Website</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>AI-Powered Intelligent Document Processing & Transaction Automation Platform</h3>
+                    <p>
+                        Rossum AI is an AI-first Intelligent Document Processing (IDP) platform that automates transactional document workflows such as invoices, purchase orders, bills of lading, receipts, and business forms. It uses AI agents and proprietary document intelligence models to capture information, validate data, communicate with stakeholders, and push processed information into enterprise systems.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper">
+                    <img src="portfolio_assests/hyperscience_ai.png" alt="Anthropic AI Fluency C&L">
+                    <div class="cert-overlay">
+                        <a href="https://www.hyperscience.ai/" target="_blank" class="cert-overlay-link">
+                            <span>View Website</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>Intelligent Document Processing (IDP)</h3>
+                    <p>
+                        Hyperscience.ai is an enterprise AI platform focused on Intelligent Document Processing (IDP), hyperautomation, and AI-powered workflow automation. 
+                        It helps organizations transform large volumes of documents and unstructured data into structured, usable information that can drive business decisions and automated processes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper">
+                    <img src="portfolio_assests/kayse_ai.png"
+                        alt="kayseai">
+                    <div class="cert-overlay">
+                        <a href="https://kayse.ai/"
+                            target="_blank" class="cert-overlay-link">
+                            <span>View Website</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>AI-Powered Client Intake, Retention & Communication Platform</h3>
+                    <p>
+                      Kayse AI is an AI-powered client communication and retention platform built specifically for plaintiff law firms, including personal injury, mass tort, and SSDI practices. 
+                      It helps law firms capture new leads faster, reconnect with unreachable clients, automate communication, and keep cases moving through AI-powered voice, SMS, email, and workflow automation.  
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper">
+                    <img src="portfolio_assests/Verhicle.png" alt="OWL VANs">
+                    <div class="cert-overlay">
+                        <a href="https://owlvans.com/" target="_blank" class="cert-overlay-link">
+                            <span>View Website</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3> Owlvans eCommerce Website Development </h3>
+                    <p>
+                        Owl Vans operates as a manufacturer and retailer of adventure van accessories, offering products for platforms including Mercedes Sprinter, Ford Transit, Ram ProMaster, INEOS Grenadier, and Winnebago vehicles. The role involved building scalable web solutions, improving customer shopping experiences, integrating third-party services, and optimizing the website performance across product catalogs, checkout workflows, customer accounts, and content-driven pages.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper">
+                    <img src="portfolio_assests/Wild_world.png" alt="Natureeye">
+                    <div class="cert-overlay">
+                        <a href="https://www.natureeye.com/"
+                            target="_blank" class="cert-overlay-link">
+                            <span>View Website</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>NatureEye Travel & Adventure Platform</h3>
+                    <p>
+                      For NatureEye, as a Full-Stack Developer, I was responsible for designing, developing, and maintaining a scalable web platform that delivers immersive virtual travel experiences, conservation storytelling, and interactive educational services. I worked across the complete technology stack, building responsive user interfaces, robust backend services, database integrations, and third-party platform connections to support NatureEye's mission of connecting users with nature through innovative drone-based experiences.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="cert-item">
+                <div class="cert-img-wrapper">
+                    <img src="portfolio_assests/IYC.png" alt="IYC">
+                    <div class="cert-overlay">
+                        <a href="https://iyc.com/" target="_blank" class="cert-overlay-link">
+                            <span>View Website</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-info">
+                    <h3>IYC Luxury Yacht</h3>
+                    <p>
+                        Worked as a Front-End Developer on the development and enhancement of the IYC (International Yacht Company) website, building a modern, responsive, and high-performance digital experience for a premium yacht brokerage brand. Delivered a modern, high-performing website experience that improved usability, supported marketing automation through HubSpot, and provided a scalable foundation for future content and feature expansion.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper">
+                    <img src="portfolio_assests/pawfit.png"
+                        alt="pawfit">
+                    <div class="cert-overlay">
+                        <a href="https://www.pawfit.com/"
+                            target="_blank" class="cert-overlay-link">
+                            <span>View Website</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>GPS Trackers for Dogs and Cats</h3>
+                    <p>
+                        Worked as a Full-Stack Developer on the development and enhancement of the Pawfit digital platform, a smart pet technology ecosystem providing GPS tracking, activity monitoring, subscription services, and online sales of pet tracking devices and accessories. The project focused on building a scalable, responsive, and user-friendly web experience that connected customers with Pawfit products, services, and mobile tracking solutions.                    
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br>
+
+    <!-- Profile Section -->
+    <section class="profiles-section" id="profiles">
+        <h2 class="section-title">Web Presence - <span class="purple-text">Dev Network!</span></h2>
+        <div class="profile-header">
+            <div class="profile-img-main">
+                <img src="portfolio_assests/Code1.png" alt="John M">
+            </div>
+            <div class="profile-text">
+                <p class="purple-text">@JohnMK</p>
+            </div>
+        </div>
+
+        <div class="profiles-grid">
+            <!-- 
+            <a href="https://linkedin.com/in/john-meeker-357569187" target="_blank" class="profile-card">
+                <div class="profile-icon">
+                    <i class="fa-brands fa-linkedin" style="color: #0077b5;"></i>
+                </div>
+                <div class="profile-info">
+                    <h3>LinkedIn</h3>
+                    <p>Connect</p>
+                </div>
+            </a> 
+            -->
+
+            <a href="https://github.com/johnmk916?tab=overview&from=2020-12-01&to=2020-12-31" target="_blank" class="profile-card">
+                <div class="profile-icon">
+                    <i class="fa-brands fa-github" style="color: #fff;"></i>
+                </div>
+                <div class="profile-info">
+                    <h3>GitHub</h3>
+                    <p>Commit</p>
+                </div>
+            </a>
+
+            <a href="https://leetcode.com/JohnMK" target="_blank" class="profile-card">
+                <div class="profile-icon">
+                    <i class="devicon-leetcode-plain colored"></i>
+                </div>
+                <div class="profile-info">
+                    <h3>LeetCode</h3>
+                    <p>Compete</p>
+                </div>
+            </a>
+
+            <a href="https://hackerrank.com/JohnMK" target="_blank" class="profile-card">
+                <div class="profile-icon">
+                    <i class="fa-brands fa-hackerrank" style="color: #2ec866;"></i>
+                </div>
+                <div class="profile-info">
+                    <h3>HackerRank</h3>
+                    <p>Code</p>
+                </div>
+            </a>
+        </div>
+        <br>
+        <p class="profile-note">You can explore further by clicking on any of the profile cards above!</p>
+    </section>
+
+    <br>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Get In Touch - <span class="purple-text">Ask Me Anything!</span></h2>
+            <h4 class="contact-note">Ready to collaborate or have a project in mind?<br> I'm always open to new
+                opportunities and interesting conversations.</h4>
+            <div class="contact-card">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" " autocomplete="off">
+                        <label for="name">Name</label>
+                        <i class="fa-solid fa-user input-icon"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" " autocomplete="off">
+                        <label for="email">Email</label>
+                        <i class="fa-solid fa-envelope input-icon"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                        <i class="fa-solid fa-comment input-icon"></i>
+                    </div>
+                    <button type="submit" class="btn-resume btn-submit">
+                        <span>Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2 class="footer-logo">John<span class="purple-text">Meeker</span></h2>
+                <p class="footer-tagline">Innovation at the Intersection of Code and Design!</p>
+            </div>
+
+            <ul class="footer-nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#OperatingModel">Operating Model</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#products">Projects</a></li>
+                <li><a href="#profiles">Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="footer-socials">
+                <!-- <a href="https://linkedin.com/in/john-meeker-357569187" target="_blank" class="social-link linkedin"><i class="fa-brands fa-linkedin"></i></a> -->
+                <a href="https://github.com/johnmk916?tab=overview&from=2020-12-01&to=2020-12-31" target="_blank" class="social-link github"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="mailto:cse.jnmk0032100@gmail.com" target="_blank" class="social-link email"><i
+                        class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 John MK | Designed & Developed with <i class="fa-solid fa-heart"
+                    style="color: var(--accent-purple);"></i> ! </p>
+            <button id="backToTop" class="back-to-top" aria-label="Back to Top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <div id="resumeModal" class="resume-modal">
+        <div class="resume-modal-content">
+            <span class="close-modal" id="closeResumeBtn">&times;</span>
+            <h2 style="margin-bottom: 20px;">My Resume - <span class="purple-text">On Paper!</span></h2>
+            <div class="resume-iframe-container">
+                <iframe src="portfolio_assests/JohnMK_Resume.pdf" width="100%" height="100%"
+                    style="border: none;"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="3d_background.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

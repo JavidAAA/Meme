@@ -1,0 +1,25 @@
+{
+  "name": "AIEXP-portfolio",
+  "version": "1.0.0",
+  "description": "AIEXP Personal Portfolio Website by John MK",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx http-server -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmk916?tab=overview&from=2020-12-01&to=2020-12-31"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnmk916?tab=overview&from=2020-12-01&to=2020-12-31"
+  },
+  "homepage": "https://github.com/johnmk916?tab=overview&from=2020-12-01&to=2020-12-31",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
